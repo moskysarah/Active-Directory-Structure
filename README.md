@@ -67,3 +67,7 @@ Exécutez la commande suivante en tant qu'Administrateur pour installer les fich
 
 ```powershell
 Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
+
+```Presentation  AD DS 
+
+![alt text](ad.png)
