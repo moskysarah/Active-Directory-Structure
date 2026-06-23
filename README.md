@@ -35,8 +35,10 @@ Le domaine repose sur une architecture à haute disponibilité avec deux contrô
 | **DC Secondaire** | `DC02` | `10.0.1.11` | AD DS, DNS, Catalogue Global |
 | **Serveur DHCP** | `DHCP01` | `10.0.1.20` | Étendues IP, Options Scope (DNS `10.0.1.10`) |
 
+## 🗂️ Structure des Unités Organisationnelles (OU)
 
-kadea.local (Racine du Domaine)
+```text
+corp.local (Racine du Domaine)
 └── 🏢 CORP-ROOT
     ├── 👥 Users
     │   ├── 💼 Admin (Comptes à privilèges)
@@ -47,6 +49,7 @@ kadea.local (Racine du Domaine)
     │   └── 📱 Laptops (Portables)
     ├── 🖨️ Devices (Imprimantes et IoT)
     └── 🛡️ Security-Groups
+
 ---
 
 ## 🛠️ Prérequis
