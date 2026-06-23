@@ -69,5 +69,4 @@ Exécutez la commande suivante en tant qu'Administrateur pour installer les fich
 Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
 
 ```Presentation  AD DS 
-
-![alt text](ad.png)
+*(Note : Si le nom de votre dossier contient un "s" à la fin, par exemple `images`, n'oubliez pas de le rajouter dans le lien : `./image/ad.png`).*
